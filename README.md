@@ -28,20 +28,20 @@ sudo apt update && sudo apt install ffmpeg
 1. Clona este repositorio o descarga el archivo del script:
 
 ```bash
-git clone https://https://github.com/MarcPerarnau/URL_YOUTUBE.git
-cd yt-audio-video-basic
+git clone https://https://github.com/MarcPerarnau/ RL_YOUTUBE.git
+cd URL_YOUTUBE
 ```
 
 2. Haz el script ejecutable:
 
 ```bash
-chmod +x yt_simple_split.sh
+chmod +x script.sh
 ```
 
 3. Ejecuta el script:
 
 ```bash
-./yt_simple_split.sh
+./script.sh
 ```
 
 4. Sigue las instrucciones en pantalla para ingresar la URL del video.
