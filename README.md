@@ -28,7 +28,7 @@ sudo apt update && sudo apt install ffmpeg
 1. Clona este repositorio o descarga el archivo del script:
 
 ```bash
-git clone https://github.com/tuusuario/yt-audio-video-basic.git
+git clone https://https://github.com/MarcPerarnau/URL_YOUTUBE.git
 cd yt-audio-video-basic
 ```
 
