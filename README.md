@@ -2,13 +2,10 @@
 Este script en Bash permite descargar el audio en MP3 y el video sin audio de un video de YouTube, utilizando yt-dlp y ffmpeg.
 
 ## 🎯 Características
-Extrae el audio en formato MP3.
-
-Descarga el video sin audio (en .mp4 si está disponible).
-
-Muestra información básica del audio y video descargado.
-
-Sin dependencias complicadas ni configuraciones avanzadas.
+- Extrae el audio en formato MP3.
+- Descarga el video sin audio (en .mp4 si está disponible).
+- Muestra información básica del audio y video descargado.
+- Sin dependencias complicadas ni configuraciones avanzadas.
 
 ## 📦 Requisitos
 Antes de ejecutar el script, asegúrate de tener instalados:
