@@ -7,11 +7,9 @@ command -v yt-dlp >/dev/null 2>&1 || { echo >&2 "Necesitas instalar yt-dlp."; ex
 # Pedir URL
 read -p "Introduce la URL del video de YouTube: " URL
 
-# Descargar audio en MP3
-yt-dlp -x --audio-format mp3 -o "audio.%(title).mp3" "$URL"
+yt-dlp -x --audio-format mp3 -o "audio.%(title)s.%(ext)s" "$URL"
+yt-dlp -f 'bestvideo[ext=mp4]' -o "video.%(title)s.%(ext)s" "$URL"
 
-# Descargar video sin audio (formato mp4 por defecto, sin mezclar audio)
-yt-dlp -f 'bestvideo[ext=mp4]' -o "video.%(title).mp4" "$URL"
 
 # Mostrar nombres de archivos generados
 AUDIO_FILE=$(ls audio.*.mp3 | head -n 1)
